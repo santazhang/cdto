@@ -32,7 +32,6 @@
 
 /* Begin PBXBuildFile section */
 		69449AD20B8909A500A19631 /* CD2PluginProtocolV1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */; };
-		6947E8C713DA6362008C982D /* lion.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6947E8C613DA6362008C982D /* lion.icns */; };
 		6963D7FD1835ED290039592E /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 6963D7FC1835ED290039592E /* LICENSE.md */; };
 		69968DC118385B4C00FB4A35 /* terminal.bundle in Terminal Plugin */ = {isa = PBXBuildFile; fileRef = 69449AA50B89080600A19631 /* terminal.bundle */; };
 		69968DC318385C2C00FB4A35 /* cd to.app in iTerm */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
@@ -46,6 +45,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AF37CE131B35D19000907230 /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = AF37CE121B35D19000907230 /* app.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -205,12 +205,12 @@
 		69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CD2PluginProtocolV1.h; path = plugins/CD2PluginProtocolV1.h; sourceTree = "<group>"; };
 		69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = X11_xterm.xcodeproj; path = plugins/X11_xterm/X11_xterm.xcodeproj; sourceTree = "<group>"; };
 		69449D830B894DBF00A19631 /* iterm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iterm.xcodeproj; path = plugins/iterm/iterm.xcodeproj; sourceTree = "<group>"; };
-		6947E8C613DA6362008C982D /* lion.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = lion.icns; sourceTree = "<group>"; };
 		6963D7FC1835ED290039592E /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		69C8AA70106E8F5800C4DE0D /* Finder.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Finder.app; path = /System/Library/CoreServices/Finder.app; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* cd to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF37CE121B35D19000907230 /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,8 +287,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AF37CE121B35D19000907230 /* app.icns */,
 				6963D7FC1835ED290039592E /* LICENSE.md */,
-				6947E8C613DA6362008C982D /* lion.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -442,10 +442,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF37CE131B35D19000907230 /* app.icns in Resources */,
 				6963D7FD1835ED290039592E /* LICENSE.md in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				69C8AA71106E8F5800C4DE0D /* Finder.app in Resources */,
-				6947E8C713DA6362008C982D /* lion.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
