@@ -21,9 +21,6 @@
 			);
 			dependencies = (
 				69E2DFD618387DE700B7DEA3 /* PBXTargetDependency */,
-				69968DB918385A0500FB4A35 /* PBXTargetDependency */,
-				69968DBB18385A0500FB4A35 /* PBXTargetDependency */,
-				69968DBD18385A0500FB4A35 /* PBXTargetDependency */,
 			);
 			name = "cd to all";
 			productName = "cd to all";
@@ -31,19 +28,17 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		69449AD20B8909A500A19631 /* CD2PluginProtocolV1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */; };
 		6963D7FD1835ED290039592E /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 6963D7FC1835ED290039592E /* LICENSE.md */; };
-		69968DC118385B4C00FB4A35 /* terminal.bundle in Terminal Plugin */ = {isa = PBXBuildFile; fileRef = 69449AA50B89080600A19631 /* terminal.bundle */; };
 		69968DC318385C2C00FB4A35 /* cd to.app in iTerm */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
-		69968DC518385C8800FB4A35 /* iterm.bundle in iTerm Plugin */ = {isa = PBXBuildFile; fileRef = 69449D880B894DBF00A19631 /* iterm.bundle */; };
 		69968DC718385CFC00FB4A35 /* cd to.app in X11 xterm */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
-		69968DC918385D4A00FB4A35 /* X11_xterm.bundle in X11 xterm Plugin */ = {isa = PBXBuildFile; fileRef = 69449C110B892D0B00A19631 /* X11_xterm.bundle */; };
 		69C8A98E106E818900C4DE0D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */; };
 		69E2DFD718387F4500B7DEA3 /* cd to.app in Terminal */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		AF37CE131B35D19000907230 /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = AF37CE121B35D19000907230 /* app.icns */; };
+		AF531A9B1E0C4BA20072FFF0 /* CD2ITerm.m in Sources */ = {isa = PBXBuildFile; fileRef = AF531A981E0C4BA20072FFF0 /* CD2ITerm.m */; };
+		AF531A9C1E0C4BA20072FFF0 /* CD2Terminal.m in Sources */ = {isa = PBXBuildFile; fileRef = AF531A9A1E0C4BA20072FFF0 /* CD2Terminal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -61,48 +56,6 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
-		69449AA40B89080600A19631 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69449A9C0B89080600A19631 /* terminal.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = terminal;
-		};
-		69449C100B892D0B00A19631 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = X11_xterm;
-		};
-		69449D870B894DBF00A19631 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69449D830B894DBF00A19631 /* iterm.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = iterm;
-		};
-		69968DB818385A0500FB4A35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69449A9C0B89080600A19631 /* terminal.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = terminal;
-		};
-		69968DBA18385A0500FB4A35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = X11_xterm;
-		};
-		69968DBC18385A0500FB4A35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69449D830B894DBF00A19631 /* iterm.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = iterm;
-		};
 		69E2DFD518387DE700B7DEA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -119,7 +72,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				69449AD20B8909A500A19631 /* CD2PluginProtocolV1.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +92,6 @@
 			dstPath = "terminal/cd to.app/Contents/Plugins";
 			dstSubfolderSpec = 16;
 			files = (
-				69968DC118385B4C00FB4A35 /* terminal.bundle in Terminal Plugin */,
 			);
 			name = "Terminal Plugin";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,7 +113,6 @@
 			dstPath = "iterm/cd to.app/Contents/Plugins";
 			dstSubfolderSpec = 16;
 			files = (
-				69968DC518385C8800FB4A35 /* iterm.bundle in iTerm Plugin */,
 			);
 			name = "iTerm Plugin";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +134,6 @@
 			dstPath = "x11_xterm/cd to.app/Contents/Plugins";
 			dstSubfolderSpec = 16;
 			files = (
-				69968DC918385D4A00FB4A35 /* X11_xterm.bundle in X11 xterm Plugin */,
 			);
 			name = "X11 xterm Plugin";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,20 +143,19 @@
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32CA4F630368D1EE00C91783 /* cd to ..._Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cd to ..._Prefix.pch"; sourceTree = "<group>"; };
-		69449A9C0B89080600A19631 /* terminal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = terminal.xcodeproj; path = plugins/terminal/terminal.xcodeproj; sourceTree = "<group>"; };
-		69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CD2PluginProtocolV1.h; path = plugins/CD2PluginProtocolV1.h; sourceTree = "<group>"; };
-		69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = X11_xterm.xcodeproj; path = plugins/X11_xterm/X11_xterm.xcodeproj; sourceTree = "<group>"; };
-		69449D830B894DBF00A19631 /* iterm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iterm.xcodeproj; path = plugins/iterm/iterm.xcodeproj; sourceTree = "<group>"; };
 		6963D7FC1835ED290039592E /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* cd to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF37CE121B35D19000907230 /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
+		AF531A951E0C4A850072FFF0 /* CD2Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD2Protocol.h; sourceTree = "<group>"; };
+		AF531A961E0C4B610072FFF0 /* Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terminal.h; sourceTree = "<group>"; };
+		AF531A971E0C4BA20072FFF0 /* CD2ITerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD2ITerm.h; sourceTree = "<group>"; };
+		AF531A981E0C4BA20072FFF0 /* CD2ITerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CD2ITerm.m; sourceTree = "<group>"; };
+		AF531A991E0C4BA20072FFF0 /* CD2Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD2Terminal.h; sourceTree = "<group>"; };
+		AF531A9A1E0C4BA20072FFF0 /* CD2Terminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CD2Terminal.m; sourceTree = "<group>"; };
 		AFFB8E9B1E0B5DA300476203 /* Finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,6 +175,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AF531A971E0C4BA20072FFF0 /* CD2ITerm.h */,
+				AF531A981E0C4BA20072FFF0 /* CD2ITerm.m */,
+				AF531A991E0C4BA20072FFF0 /* CD2Terminal.h */,
+				AF531A9A1E0C4BA20072FFF0 /* CD2Terminal.m */,
+				AF531A951E0C4A850072FFF0 /* CD2Protocol.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -243,8 +196,6 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
-				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -261,8 +212,6 @@
 		29B97314FDCFA39411CA2CEA /* cd to ... */ = {
 			isa = PBXGroup;
 			children = (
-				69449AD50B8909AB00A19631 /* plugin */,
-				694495BE0B869B3B00A19631 /* external projects */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -275,8 +224,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				AF531A961E0C4B610072FFF0 /* Terminal.h */,
 				AFFB8E9B1E0B5DA300476203 /* Finder.h */,
-				32CA4F630368D1EE00C91783 /* cd to ..._Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -300,48 +249,6 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		694495BE0B869B3B00A19631 /* external projects */ = {
-			isa = PBXGroup;
-			children = (
-				69449A9C0B89080600A19631 /* terminal.xcodeproj */,
-				69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */,
-				69449D830B894DBF00A19631 /* iterm.xcodeproj */,
-			);
-			name = "external projects";
-			sourceTree = "<group>";
-		};
-		69449A9D0B89080600A19631 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				69449AA50B89080600A19631 /* terminal.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		69449AD50B8909AB00A19631 /* plugin */ = {
-			isa = PBXGroup;
-			children = (
-				69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */,
-			);
-			name = plugin;
-			sourceTree = "<group>";
-		};
-		69449C0A0B892D0B00A19631 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				69449C110B892D0B00A19631 /* X11_xterm.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		69449D840B894DBF00A19631 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				69449D880B894DBF00A19631 /* iterm.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,20 +296,6 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* cd to ... */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 69449D840B894DBF00A19631 /* Products */;
-					ProjectRef = 69449D830B894DBF00A19631 /* iterm.xcodeproj */;
-				},
-				{
-					ProductGroup = 69449A9D0B89080600A19631 /* Products */;
-					ProjectRef = 69449A9C0B89080600A19631 /* terminal.xcodeproj */;
-				},
-				{
-					ProductGroup = 69449C0A0B892D0B00A19631 /* Products */;
-					ProjectRef = 69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* cd to */,
@@ -410,30 +303,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		69449AA50B89080600A19631 /* terminal.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = terminal.bundle;
-			remoteRef = 69449AA40B89080600A19631 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		69449C110B892D0B00A19631 /* X11_xterm.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = X11_xterm.bundle;
-			remoteRef = 69449C100B892D0B00A19631 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		69449D880B894DBF00A19631 /* iterm.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iterm.bundle;
-			remoteRef = 69449D870B894DBF00A19631 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -475,27 +344,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				AF531A9C1E0C4BA20072FFF0 /* CD2Terminal.m in Sources */,
+				AF531A9B1E0C4BA20072FFF0 /* CD2ITerm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		69968DB918385A0500FB4A35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = terminal;
-			targetProxy = 69968DB818385A0500FB4A35 /* PBXContainerItemProxy */;
-		};
-		69968DBB18385A0500FB4A35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = X11_xterm;
-			targetProxy = 69968DBA18385A0500FB4A35 /* PBXContainerItemProxy */;
-		};
-		69968DBD18385A0500FB4A35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iterm;
-			targetProxy = 69968DBC18385A0500FB4A35 /* PBXContainerItemProxy */;
-		};
 		69E2DFD618387DE700B7DEA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8D1107260486CEB800E47090 /* cd to */;
@@ -597,7 +453,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -624,7 +480,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = macosx;
 			};
 			name = Release;
